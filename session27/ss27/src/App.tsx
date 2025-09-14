@@ -22,15 +22,12 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        {/* Trang chính */}
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
       </Route>
-      {/* Trang sản phẩm */}
       <Route path="products" element={<ProductList />} />
       <Route path="products/:id" element={<ProductDetail />} />
-      {/* Trang công việc */}
       <Route path="tasks" element={<TaskList />} />
       <Route path="task/:id" element={<TaskDetail />} />
 

@@ -5,7 +5,6 @@ import Contact from "../bt1/Contact";
 import Login from "../bt3/Login";
 import Register from "../bt4/Register";
 import NotFound from "../bt5/NotFound";
-import Header from "../bt6/Header";
 
 const router = createBrowserRouter([
   {
