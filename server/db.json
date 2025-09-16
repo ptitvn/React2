@@ -1,0 +1,60 @@
+{
+  "posts": [
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    },
+    {
+      "id": "b854"
+    },
+    {
+      "id": "c194"
+    },
+    {
+      "id": "1170"
+    },
+    {
+      "id": "4d8b"
+    },
+    {
+      "id": "c5a0"
+    },
+    {
+      "id": "3065"
+    },
+    {
+      "id": "f11d"
+    },
+    {
+      "id": "9873"
+    },
+    {
+      "id": "072a"
+    },
+    {
+      "id": "5638"
+    },
+    {
+      "id": "7c15"
+    },
+    {
+      "id": "38ae"
+    },
+    {
+      "id": "f3ea"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": null
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": null
+    }
+  ]
+}

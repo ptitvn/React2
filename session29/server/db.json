@@ -1,0 +1,91 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "productName": "iphone 1",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/IPhone_1st_Gen.svg",
+      "price": 1000000,
+      "quantity": 1,
+      "createdAt": "15/09/2025"
+    },
+    {
+      "id": 2,
+      "productName": "iphone 2",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/IPhone_1st_Gen.svg",
+      "price": 2000000,
+      "quantity": 2,
+      "createdAt": "15/09/2025"
+    },
+    {
+      "id": 3,
+      "productName": "iphone 3",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/IPhone_1st_Gen.svg",
+      "price": 3000000,
+      "quantity": 3,
+      "createdAt": "15/09/2025"
+    },
+    {
+      "id": 4,
+      "productName": "iphone 4",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/IPhone_1st_Gen.svg",
+      "price": 4000000,
+      "quantity": 4,
+      "createdAt": "15/09/2025"
+    },
+    {
+      "id": 5,
+      "productName": "iphone 5",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/IPhone_1st_Gen.svg",
+      "price": 5000000,
+      "quantity": 5,
+      "createdAt": "15/09/2025"
+    }
+  ],
+  "student": [
+    {
+      "id": 1,
+      "studentName": "nguyen van a",
+      "email": "nva@gmail.com",
+      "address": "ha noi",
+      "phone": "0123456789",
+      "status": true,
+      "createdAt": "15/09/2025"
+    },
+    {
+      "id": 2,
+      "studentName": "nguyen van b",
+      "email": "nvb@gmail.com",
+      "address": "ha noi",
+      "phone": "0123456790",
+      "status": true,
+      "createdAt": "15/09/2025"
+    },
+    {
+      "id": 3,
+      "studentName": "nguyen van c",
+      "email": "nvc@gmail.com",
+      "address": "hai phong",
+      "phone": "0123456791",
+      "status": false,
+      "createdAt": "15/09/2025"
+    },
+    {
+      "id": 4,
+      "studentName": "nguyen van d",
+      "email": "nvd@gmail.com",
+      "address": "da nang",
+      "phone": "0123456792",
+      "status": true,
+      "createdAt": "15/09/2025"
+    },
+    {
+      "id": 5,
+      "studentName": "nguyen van e",
+      "email": "nve@gmail.com",
+      "address": "can tho",
+      "phone": "0123456793",
+      "status": false,
+      "createdAt": "15/09/2025"
+    }
+  ]
+}
