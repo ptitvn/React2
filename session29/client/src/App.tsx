@@ -1,4 +1,3 @@
-import React from 'react'
 // import Bai12 from "../components/PTIT_CNTT4_IT104_Session29_Bai01+2/Bai1+2"
 // import Bai34 from "../components/PTIT_CNTT4_IT104_Session29_Bai03+4/Bai3+4"
 // import Bai5 from '../components/PTIT_CNTT4_IT104_Session29_Bai05/Bai5'
