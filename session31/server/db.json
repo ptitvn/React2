@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Giới thiệu ReactJS",
+      "image": "https://via.placeholder.com/100",
+      "date": "2025-09-17",
+      "status": "Đã xuất bản"
+    },
+    {
+      "id": "2",
+      "title": "Hướng dẫn TypeScript",
+      "image": "https://via.placeholder.com/100",
+      "date": "2025-09-16",
+      "status": "Đã xuất bản"
+    }
+  ]
+}
