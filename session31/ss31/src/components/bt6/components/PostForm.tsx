@@ -9,7 +9,7 @@ function PostForm({ onClose }: { onClose: () => void }) {
   const [warningVisible, setWarningVisible] = useState(false);
   const [warningMessage, setWarningMessage] = useState('');
 
-  const forbiddenWords = ['cấm', 'bậy', 'xấu']; // từ cấm ví dụ
+  const forbiddenWords = ['cấm', 'bậy', 'xấu']; 
 
   const handleReset = () => {
     setConfirmResetVisible(true);
