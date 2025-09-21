@@ -6,7 +6,7 @@ function RandomNumber() {
   const dispatch = useDispatch();
 
   const generateRandom = () => {
-    const random = Math.floor(Math.random() * 100); // Tạo số từ 0–99
+    const random = Math.floor(Math.random() * 100);
     dispatch({ type: 'ADD_RANDOM', payload: random });
   };
 
