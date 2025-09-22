@@ -22,7 +22,7 @@ export default function Cart() {
           </div>
           <div className="panel-body">
             <table className="table">
-              <thead>
+              <thead >
                 <tr>
                   <th>STT</th>
                   <th>Name</th>
