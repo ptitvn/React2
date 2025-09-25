@@ -1,0 +1,16 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Nguyễn Văn An",
+      "age": 16,
+      "grade": "10A1"
+    },
+    {
+      "id": "2",
+      "name": "Trần Thị Bình",
+      "age": 17,
+      "grade": "11B1"
+    }
+  ]
+}
