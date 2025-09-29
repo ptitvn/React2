@@ -206,6 +206,5 @@ const App: React.FC = () => {
       </Dialog>
     </div>
   );
-};
-
+}
 export default App;
