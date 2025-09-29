@@ -31,7 +31,6 @@ const BookForm: React.FC<Props> = ({
   const [errors, setErrors] = useState<Record<string, string>>({});
   const titleRef = useRef<HTMLInputElement>(null);
 
-  // ✅ Reset form khi mở modal hoặc khi đổi sang edit cuốn khác
   useEffect(() => {
     if (open) {
       setTitle(initial.title ?? '');
@@ -42,7 +41,6 @@ const BookForm: React.FC<Props> = ({
     }
   }, [open, initial?.id]);
 
-  // ✅ Validate đầu vào
   const validate = (): boolean => {
     const newErrors: Record<string, string> = {};
 
@@ -79,13 +77,11 @@ const BookForm: React.FC<Props> = ({
     return true;
   };
 
-  // ✅ Gửi dữ liệu nếu hợp lệ
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!validate()) return;
 
     if (initial.id) {
-      // ✏️ Edit mode → gửi đủ Book có id
       const updatedBook: Book = {
         id: initial.id,
         title: title.trim(),
@@ -95,7 +91,6 @@ const BookForm: React.FC<Props> = ({
       };
       onSubmit(updatedBook);
     } else {
-      // ➕ Add mode → gửi Omit<Book, 'id'> (không có id)
       const newBook: Omit<Book, 'id'> = {
         title: title.trim(),
         author: author.trim(),

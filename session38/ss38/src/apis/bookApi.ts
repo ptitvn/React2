@@ -9,12 +9,12 @@ export const fetchBooks = async (): Promise<Book[]> => {
 };
 
 export const addBook = async (book: Omit<Book, 'id'>): Promise<Book> => {
-  const res = await axios.post(BASE_URL, book); // ✅ không gửi id
+  const res = await axios.post(BASE_URL, book); 
   return res.data;
 };
 
 export const updateBook = async (book: Book): Promise<Book> => {
-  const res = await axios.put(`${BASE_URL}/${book.id}`, book); // ✅ PUT đúng id
+  const res = await axios.put(`${BASE_URL}/${book.id}`, book);
   return res.data;
 };
 

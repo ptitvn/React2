@@ -36,7 +36,6 @@ const App: React.FC = () => {
   const [sortBy, setSortBy] = useState<'title' | 'year'>('title');
   const [sortDir, setSortDir] = useState<'asc' | 'desc'>('asc');
 
-  // state cho modal confirm delete
   const [openDelete, setOpenDelete] = useState(false);
   const [bookToDelete, setBookToDelete] = useState<string | null>(null);
 
@@ -175,7 +174,6 @@ const App: React.FC = () => {
         )}
       </div>
 
-      {/* Form thêm/sửa */}
       <BookForm
         open={openForm}
         initial={editing}
@@ -187,7 +185,6 @@ const App: React.FC = () => {
         existingTitles={existingTitles}
       />
 
-      {/* Modal xác nhận xóa */}
       <Dialog
         open={openDelete}
         onClose={() => setOpenDelete(false)}

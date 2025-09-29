@@ -52,7 +52,7 @@ const bookSlice = createSlice({
         state.loading = false;
       })
       .addCase(createBook.fulfilled, (state, action) => {
-        state.data.unshift(action.payload); // ✅ hiển thị ngay sau khi thêm
+        state.data.unshift(action.payload); 
       })
       .addCase(editBook.fulfilled, (state, action) => {
         state.data = state.data.map((b) =>
